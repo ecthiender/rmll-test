@@ -1,0 +1,107 @@
+{
+    "lab": {
+      "description": {
+            "developer": [
+                {
+                    "contact": {
+                        "email": "rayanon004@gmail.com",
+                        "alternate_email": "",
+                        "mobile_number": "",
+                        "office_number": ""
+                    },
+                    "department": "CSE",
+                    "institute": "IIIT-H",
+                    "name": "",
+                    "organization": "",
+                    "role": "",
+                    "title": "",
+                    "web": ""
+                },
+                {
+                    "contact": {
+                        "alternate_email": "",
+                        "email": "",
+                        "mobile_number": "",
+                        "office_number": ""
+                    },
+                    "department": "",
+                    "institute": "",
+                    "name": "",
+                    "organization": "",
+                    "role": "",
+                    "title": "",
+                    "web": ""
+                }
+            ],
+            "discipline": [
+                "CSE"
+            ],
+            "id": "rmll-test",
+            "integration_level": 0,
+            "name": "RMLL Test Lab",
+            "server-side": true,
+            "status": "",
+            "type": ""
+        },
+        "build_requirements": {
+            "platform": {
+                "arch": "",
+                "build_steps": {
+                    "build": [],
+                    "configure": [],
+                    "post_build": [],
+                    "pre_build": [],
+                    "status": []
+                },
+                "installer": [],
+                "os": "ubuntu",
+                "osVersion": "12",
+                "service_pack": ""
+            }
+        },
+        "runtime_requirements": {
+            "platform": {
+                "arch": "x86_64",
+                "hosting": "dedicated",
+                "installer": [
+                  "sudo apt-get update",
+                  "sudo apt-get install -y apache2"
+                ],
+                "lab_actions": {
+                    "backup": [
+                    ],
+                    "clean": [],
+                    "init": [
+                      "mv /var/www/index.html index.html.default",
+                      "cp -r ../src/* /var/www/"
+                    ],
+                    "pause": [],
+                    "publish": [],
+                    "restore": [
+                        "restore"
+                    ],
+                    "resume": [],
+                    "shutdown": [
+                        "service apache2 stop"
+                    ],
+                    "start": [
+                        "service apache2 start"
+                    ],
+                    "stats": [],
+                    "stop": []
+                },
+                "memory": {
+                    "max_required": "2gb",
+                    "min_required": "256mb"
+                },
+                "os": "ubuntu",
+                "osVersion": "12",
+                "servicepack": "",
+                "storage": {
+                    "min_required": "2gb"
+                }
+            }
+        }
+    },
+    "template": "1.0"
+}
