@@ -1,0 +1,11 @@
+pre.haskell-pre a {
+    border-bottom: 1px dotted #000;
+    text-decoration: none;
+}
+
+td div.highlight {
+    margin: 0;
+}
+
+h3 code {
+}
