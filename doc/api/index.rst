@@ -3,10 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-HasuraDB
+Hasura DB
 ========
 
-HasuraDB provides an HTTP API for the PostgreSQL database. This API is designed to be consumed directly from frontend interfaces like Android and iOS apps, browser based JavaScript apps etc.
+Hasura DB provides an HTTP API for the PostgreSQL database. This API is designed to be consumed directly from frontend interfaces like Android and iOS apps, browser based JavaScript apps etc.
 
 * A JSON based query language
 * Role based row level permissions
